@@ -17,9 +17,9 @@
 }
 /****** HEADER *****/
 header{
+    max-width: 1440px;
     width: 100%;
     height: 100vh;
-    background-color: gainsboro;
 }
 header .video-header{
     position: absolute;
@@ -29,6 +29,9 @@ header .video-header{
     width: 100%;
     height: 100vh;  
     object-fit: cover;
+}
+nav{
+    width: 100%;
 }
 header nav.navbar-brand img{
     
@@ -78,7 +81,6 @@ div.picture-items{
     width: 100%;
     justify-content: space-between;
 }
-
 div.contact-map{
     width: 100%;
     height: 300px;
@@ -93,6 +95,17 @@ div.content-footer{
     width: 100%;
     height: 350px;
 }
+div.logo-footer,.nav-footer,.social{
+    width: 400px;
+    height: auto;
+}
+div.logo-footer img{
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+}
+
+
 
 /*** OVERLAY ***/
 div.overlay{
