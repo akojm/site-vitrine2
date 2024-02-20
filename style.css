@@ -15,6 +15,10 @@
     font-family: secondary;
     src: url(./assets/font/Montserrat/static/Montserrat-Regular.ttf);
 }
+li{
+    list-style: none;
+}
+
 /****** HEADER *****/
 header{
     max-width: 1440px;
@@ -32,6 +36,9 @@ header .video-header{
 }
 nav{
     width: 100%;
+}
+nav button {
+    height: 80px;
 }
 header nav.navbar-brand img{
     
@@ -51,6 +58,12 @@ h1{
 header .titre{
     width: 50%;
     height: auto;
+}
+header.navbar-toggler{
+    height: 80px;
+}
+header .navbar-toggler img{
+   width: 45px;
 }
 div.card img{
     height: 250px;
@@ -91,19 +104,63 @@ div.contact-map iframe{
 }
 
 /*** fOOTER ***/
+footer{
+    height: auto;
+    background-color: black;
+}
 div.content-footer{
     width: 100%;
-    height: 350px;
+    height: auto;
 }
 div.logo-footer,.nav-footer,.social{
-    width: 400px;
     height: auto;
 }
 div.logo-footer img{
-    max-width: 200px;
+    max-width: 115px;
     width: 100%;
     height: auto;
 }
+footer ul li a{
+    text-decoration: none;
+    color: white ;
+    font-size: 18px;
+}
+footer ul li a:hover{
+    color: #dc3545;
+    transition: .5s ease;
+}
+footer i{
+    font-size: 18px;
+    padding: 8px;
+    border-radius: 25px;
+    background-color: white;
+}
+footer i:hover{
+    color: #dc3545;
+    transition: .5s ease; 
+}
+footer i:hover{
+    background-color: rgb(232, 228, 228);
+}
+footer.copyrigth{
+    width: 100%;
+    height: 80px;
+}
+footer .copyrigth::before{
+    display: inline-block;
+    content: " ";
+    width: 100%;
+    height: 1px;
+    background-color: rgba(255, 255, 255,0.5);
+}
+footer p a{
+   text-decoration: none;
+}
+footer p a:hover{
+    color: #dc3545;
+    transition: .5s ease;
+}
+
 
 
 
@@ -132,6 +189,9 @@ div.overlay:hover{
 div h6{
     margin: 0;
 }
+
+
+
 
 
 
